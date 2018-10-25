@@ -1,0 +1,8 @@
+:root {
+	--black: #000000;
+	--white: #ffffff;
+	--black-15: rgba(0, 0, 0, 0.15);
+	--black-10: rgba(0, 0, 0, 0.1);
+
+	--white-15: rgba(255, 255, 255, 0.15);
+}
