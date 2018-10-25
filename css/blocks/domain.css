@@ -123,7 +123,7 @@
           box-shadow: none;
   background: transparent;
   background-image: none;
-  
+
   -moz-appearance: none;
 	-webkit-appearance: none;
 	font-size: 16px;
@@ -167,9 +167,9 @@
 	position: absolute;
 	content: "";
 	width: 27px;
-	height: 191px;
+	height: 189px;
 	display: block;
-	top: 1px;
+	top: 2px;
 	left: 1px;
 	background-color: white;
 }
@@ -178,9 +178,9 @@
 	position: absolute;
 	content: "";
 	width: 27px;
-	height: 191px;
+	height: 189px;
 	display: block;
-	top: 1px;
+	top: 2px;
 	right: 1px;
 	background-color: white;
 }
