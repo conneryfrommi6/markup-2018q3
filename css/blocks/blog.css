@@ -1,6 +1,4 @@
 .blog {
-	/*outline: 1px solid red;*/
-	
 	margin: 0;
 	padding: 34px 0 50px;
 
@@ -8,7 +6,7 @@
 	background-image: url("../../img/blog-bg.jpg");
 	background-repeat: repeat;
 	text-align: center;
-	color: var(--white);
+	color: white;
 }
 
 .blog .container {

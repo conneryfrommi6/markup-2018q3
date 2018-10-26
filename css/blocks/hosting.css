@@ -26,9 +26,14 @@
 	padding-left: 27px;
 	border-top: 5px solid grey;
 	text-align: center;
-	background-color: var(--white);
+	background-color: white;
 	-webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
 	        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+}
+
+.hosting__item:hover {
+-webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+	      box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
 }
 
 .hosting__item--basic {

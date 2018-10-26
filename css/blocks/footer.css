@@ -3,7 +3,7 @@
 
 	padding-bottom: 30px;
 	background-color: #2a2a2a;
-	color: var(--white);
+	color: white;
 }
 
 
@@ -60,7 +60,7 @@
 
 .footer__link:hover,
 .footer__link:focus {
-	color: var(--white);
+	color: white;
 }
 
 
@@ -97,7 +97,7 @@
 
 .footer__copyright-link:hover,
 .footer__copyright-link:focus {
-	color: var(--white);
+	color: white;
 }		
 
 
@@ -148,13 +148,13 @@
 
 .footer__menu-link:hover,
 .footer__menu-link:focus {
-	color: var(--white);
+	color: white;
 	margin-left: 7px;
 }
 
 .footer__menu-link:hover::before,
 .footer__menu-link:focus::before {
-	color: var(--white);
+	color: white;
 	left: -20px;
 	bottom: 12px;
 }
