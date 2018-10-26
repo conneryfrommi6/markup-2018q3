@@ -1,5 +1,5 @@
 .header {
-	margin-bottom: 86px;
+	margin-bottom: 87px;
 	width: 100%;
 	background: black;
 	background-image: url(../../img/bg.jpg);
@@ -52,7 +52,7 @@
 
 .header__item {
 	margin-left: 69px;
-	padding: 37px 0;
+	padding: 37px 0 35px;
 	border-bottom: 1px solid transparent;
 }
 
@@ -65,11 +65,7 @@
 	border-bottom: 1px solid white;
 	cursor: pointer;
 }
-/*
-.header__item--active {
-	border-bottom: 1px solid white;
-}
-*/
+
 .header__link {
 	color: white;
 }
@@ -78,13 +74,13 @@
 /* header banner */
 
 .header__banner {
-	margin-top: 341px;
-	margin-bottom: 340px;
+	margin-top: 342px;
+	margin-bottom: 339px;
 	text-align: center;
 }
 
 .banner__heading {
-	margin-bottom: 5px;
+	margin-bottom: 6px;
 	font-family: "Myriad Pro", "Arial", sans-serif;
 	font-size: 72px;
 	line-height: 72px;

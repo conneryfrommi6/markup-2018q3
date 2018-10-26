@@ -1,5 +1,4 @@
 .about {
-	/*outline: 1px solid red;*/
 	margin-top: 102px;
 	margin-bottom: 102px;
 	display: -webkit-box;
@@ -69,8 +68,8 @@
 
 .about__photo {
 	margin-bottom: 12px;
-	width: 90px;
-	height: 90px;
+	width: 100px;
+	height: 100px;
 	border-radius: 100%;
 	box-sizing: border-box;
   border: 5px solid var(--black-15);
@@ -91,15 +90,24 @@
 }
 
 .about__social {
-	width: 88px;
 	margin: 0 auto;
-	margin-top: 12px;	
+	margin-top: 12px;
+	width: 98px;	
+
 	display: -webkit-box;	
 	display: -ms-flexbox;	
 	display: flex;
-	-webkit-box-pack: justify;
-	    -ms-flex-pack: justify;
-	        justify-content: space-between;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+}
+
+.about__social-item {
+	margin-right: 24px;
+}
+
+.about__social-item:last-child {
+	margin-right: 0;
 }
 
 .about__social-link i {
@@ -113,4 +121,34 @@
 
 .about__social-link i:hover {
 	color: #1f89ba;
+}
+
+/* some kostyls for pixelperfect */
+
+.about__item:nth-child(1) .about__occupation {
+	padding-right: 7px;
+}
+
+.about__item:nth-child(2) .about__occupation {
+	padding-right: 5px;
+}
+
+.about__item:nth-child(3) .about__occupation {
+	padding-left: 16px;
+}
+
+.about__item:nth-child(2) .about__social-item {
+	padding-left: 1px;
+}
+
+.about__item:nth-child(3) .about__social-item {
+	padding-left: 3px;
+}
+
+.about__item:nth-child(2) .about__social-item:nth-child(2) {
+	margin-right: 22px;
+}
+
+.about__item:nth-child(3) .about__social-item:nth-child(2) {
+	margin-right: 19px;
 }

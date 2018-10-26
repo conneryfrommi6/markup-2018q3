@@ -1,7 +1,6 @@
 .blog {
-	margin: 0;
-	padding: 34px 0 50px;
-
+	margin-bottom: 100px;
+	padding: 34px 0 70px;
 	background-color: black;
 	background-image: url("../../img/blog-bg.jpg");
 	background-repeat: repeat;
@@ -47,6 +46,10 @@ input[type="radio"]:nth-of-type(3):checked ~ .blog__items .blog__item:nth-of-typ
 }
 
 .blog__author {
+	position: absolute;
+	bottom: -35px;	
+	right: 540px;
+
 	margin-right: 58px;
 	padding-right: 12px;
 	font-size: 20px;
@@ -57,8 +60,9 @@ input[type="radio"]:nth-of-type(3):checked ~ .blog__items .blog__item:nth-of-typ
 
 .blog__controls {
 	position: absolute;
-	bottom: 0;	
+	bottom: -34px;	
 	right: 522px;
+
 	padding-top: 4px;
 	padding-bottom: 4px;
 	width: 75px;
