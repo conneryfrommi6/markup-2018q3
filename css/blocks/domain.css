@@ -47,6 +47,7 @@
 	border: 0;
 	font-size: 15px;
 	font-weight: 500;
+	background-color: transparent;
 	color: #868686;
 }
 
@@ -93,7 +94,7 @@
   width: 85px;
   overflow: hidden;
 
-	background-color: white;
+	background-color: transparent;
 	border-left: 1px solid #d9d9d9;
 	cursor: pointer;
 }
@@ -153,41 +154,37 @@
 	line-height: 110%;
 	text-transform: capitalize;
 	color: #cbcbcb;
-	/*border-collapse: collapse;*/
-}
-
-
-.domain__table::before {
-	position: absolute;
-	content: "";
-	width:  3.37%;
-	height: 10%;
-	display: block;
-	top: 45%;
-	left: 0.1%;
-	background-color: white;
-}
-
-.domain__table::after {
-	position: absolute;
-	content: "";
-	width: 27px;
-	height: 189px;
-	display: block;
-	top: 2px;
-	right: 1px;
-	background-color: white;
+	border-collapse: collapse;
 }
 
 .domain__table td,
 .domain__table th {
+	position: relative;
 	padding: 40px 0;
 	width: 25%;
-	border: 1px solid var(--black-15); 
+	border: 1px solid #d9d9d9; 
 }
 
-.domain__table td {
-	position: relative;
+.domain__table tr:first-child th::before {
+	position: absolute;
+	content: "";
+	width: 11.36%;
+	height: 100%;
+	display: block;
+	bottom: -50%;
+	left: 0.1%;
+	background-color: white;
+}
+
+.domain__table tr:first-child td:last-child::after {
+	position: absolute;
+	content: "";
+	width: 11.36%;
+	height: 100%;
+	display: block;
+	top: 50%;
+	left: 88.54%;
+	background-color: white;
 }
 
 .domain__table tr:first-child td::after {
