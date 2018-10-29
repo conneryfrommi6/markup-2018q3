@@ -80,7 +80,7 @@
 	width: 295px;
 	font-size: 15px;
 	line-height: 26px;
-	font-weight: 100;
+	font-weight: 300;
 	color: #686868;
 }
 
@@ -138,7 +138,7 @@
 	position: relative;
 	font-size: 15px;
 	line-height: 29px;
-	font-weight: 100;
+	font-weight: 300;
 	color: #686868;
 	-webkit-transition: margin 150ms;
 	transition: margin 150ms;
@@ -177,7 +177,7 @@
 	padding-top: 20px;
 	margin-left: 83px;
 	width: 240px;
-	font-weight: 100;
+	font-weight: 300;
 }
 
 .footer__phone {
