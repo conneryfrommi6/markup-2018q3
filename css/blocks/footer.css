@@ -30,6 +30,7 @@
 }
 
 .footer__nav {
+	padding-right: 4px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -40,7 +41,7 @@
 }
 
 .footer__item {
-	padding-right: 47px;
+	padding-right: 46px;
 }
 
 .footer__item:last-child {
