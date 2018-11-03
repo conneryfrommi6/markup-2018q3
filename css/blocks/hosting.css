@@ -29,11 +29,13 @@
 	background-color: white;
 	-webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
 	        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+	transition: margin 150ms ease-out;
 }
 
 .hosting__item:hover {
 -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 	      box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+	margin-top: 96px;
 }
 
 .hosting__item--basic {
