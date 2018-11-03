@@ -14,15 +14,21 @@
 }
 
 .support__icon {
+	position: relative;
 	width: 60px;
 	height: 60px;
 	margin: 0 auto;
 	border-radius: 50%;
 }
 
-.support__icon .fa {
+.support__icon::after {
+	position: absolute;
+  top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: block;
+	font-family: "FontAwesome";
 	font-size: 28px;
-	line-height: 20px;
 	color: white;
 }
 
@@ -42,13 +48,24 @@
 	background-color: #f1540f;
 }
 
-.support__icon .fa {
-	position: relative;
-	top: 18px;
+.support__icon.icon1::after {
+	content: "\f0e7";
+}
+
+.support__icon.icon2::after {
+	content: "\f0c2";
+}
+
+.support__icon.icon3::after {
+	content: "\f047";
+}
+
+.support__icon.icon4::after {
+	content: "\f086";
 }
 
 .support__title {
-	margin-top: 19px;
+	margin-top: 21px;
 	margin-bottom: 7px;
 	font-size: 18px;
 	font-weight: 900;
