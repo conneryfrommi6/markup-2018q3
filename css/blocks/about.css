@@ -109,18 +109,29 @@
 	margin-right: 0;
 }
 
-.about__social-link i {
+.about__social-link::before {
+	font-family: "FontAwesome";
 	font-size: 14px;
 	color: #bfbfbf;
 }
 
-.about__social-link--twitter i {
+.about__social-link--facebook::before {
+	content: '\f09a';
+}
+
+.about__social-link--twitter::before {
+	content: '\f099';
 	font-size: 18px;
 }
 
-.about__social-link i:hover {
+.about__social-link--website::before {
+	content: '\f0c1';
+}
+
+.about__social-link:hover::before {
 	color: #1f89ba;
 }
+
 
 /* some kostyls for pixelperfect */
 
@@ -136,18 +147,7 @@
 	padding-left: 16px;
 }
 
-.about__item:nth-child(2) .about__social-item {
-	padding-left: 1px;
-}
-
 .about__item:nth-child(3) .about__social-item {
 	padding-left: 3px;
-}
-
-.about__item:nth-child(2) .about__social-item:nth-child(2) {
 	margin-right: 22px;
-}
-
-.about__item:nth-child(3) .about__social-item:nth-child(2) {
-	margin-right: 19px;
 }
