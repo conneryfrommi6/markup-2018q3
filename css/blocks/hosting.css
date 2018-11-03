@@ -9,7 +9,7 @@
 .hosting__list {
 	margin: 0;
 	padding: 0;
-	padding-bottom: 99px;
+	margin-bottom: 99px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -230,4 +230,5 @@
   background-position: top;
   background-size: 9px 2px;
   background-repeat: repeat-x;
+	border: none;
 }

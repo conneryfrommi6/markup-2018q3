@@ -1,6 +1,6 @@
 .about {
 	margin-top: 102px;
-	margin-bottom: 102px;
+	margin-bottom: 90px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -34,7 +34,6 @@
 }
 
 .dashed-border-vertical {
-	margin-left: 20px;
 	width: 2px;
 	height: 190px;
 
@@ -44,6 +43,7 @@
   background-position: top;
   background-size: 2px 10px;
   background-repeat: repeat-y;
+  border: none;
 }
 
 .about__list {

@@ -35,7 +35,6 @@ input[type="radio"]:nth-of-type(3):checked ~ .blog__items .blog__item:nth-of-typ
 
 .blog__item p {
 	margin-top: 12px;
-	letter-spacing: 0.1px;
 }
 
 .blog__post {
