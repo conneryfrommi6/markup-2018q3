@@ -57,9 +57,9 @@
 .hosting__infographics {
 	position: relative;
 	margin: 0 auto;
-	margin-bottom: 21px;
-	width: 53px;
-	height: 53px;
+	margin-bottom: 18px;
+	width: 56px;
+	height: 56px;
 	font-size: 17px;
 }
 
@@ -95,7 +95,7 @@
 
 .hosting__chart {
 	position: absolute;
-	right: 3px;
+	right: 4px;
 	stroke-width: 6px;
 	stroke-linecap: round;
   fill: none;
@@ -124,7 +124,7 @@
 /* hosting blocks */
 
 .hosting__heading {
-	margin-top: 21px;
+	margin-top: 18px;
 	margin-bottom: 18px;
 	text-transform: uppercase;
 }
