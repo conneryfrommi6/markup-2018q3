@@ -1,5 +1,6 @@
 .support {
-	margin-bottom: 95px;
+	margin-top: 99px;
+	margin-bottom: 94px;
 }
 
 .support__items {
@@ -26,46 +27,45 @@
   top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	display: block;
 	font-family: "FontAwesome";
 	font-size: 28px;
 	color: white;
 }
 
-.support__icon.icon1 {
+.support__icon--fast {
 	background-color: #f1c40f;
 }
 
-.support__icon.icon2 {
+.support__icon--cloud {
 	background-color: #0faff1;
 }
 
-.support__icon.icon3 {
+.support__icon--transfer {
 	background-color: #95a5a6;
 }
 
-.support__icon.icon4 {
+.support__icon--support {
 	background-color: #f1540f;
 }
 
-.support__icon.icon1::after {
+.support__icon--fast::after {
 	content: "\f0e7";
 }
 
-.support__icon.icon2::after {
+.support__icon--cloud::after {
 	content: "\f0c2";
 }
 
-.support__icon.icon3::after {
+.support__icon--transfer::after {
 	content: "\f047";
 }
 
-.support__icon.icon4::after {
+.support__icon--support::after {
 	content: "\f086";
 }
 
 .support__title {
-	margin-top: 21px;
+	margin-top: 20px;
 	margin-bottom: 7px;
 	font-size: 18px;
 	font-weight: 900;

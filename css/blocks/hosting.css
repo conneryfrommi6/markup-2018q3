@@ -7,9 +7,7 @@
 }
 
 .hosting__list {
-	margin: 0;
-	padding: 0;
-	margin-bottom: 99px;
+	margin-bottom: 100px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -19,14 +17,15 @@
 }
 
 .hosting__item {
-	height: 565px;
-	width: 255px;
 	margin-top: 100px;
-	padding: 35px 28px;
+	padding-top: 35px;
+	padding-right: 28px;
+	padding-bottom: 17px;
 	padding-left: 27px;
-	border-top: 5px solid grey;
+	width: 255px;
 	text-align: center;
 	background-color: white;
+	border-top: 5px solid grey;
 	-webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
 	        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
 	-webkit-transition: margin 150ms ease-out;
@@ -34,9 +33,9 @@
 }
 
 .hosting__item:hover {
+	margin-top: 96px;
 -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 	      box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
-	margin-top: 96px;
 }
 
 .hosting__item--basic {
@@ -57,10 +56,10 @@
 
 .hosting__infographics {
 	position: relative;
-	width: 53px;
-	height: 53px;
 	margin: 0 auto;
 	margin-bottom: 21px;
+	width: 53px;
+	height: 53px;
 	font-size: 17px;
 }
 
@@ -94,17 +93,12 @@
 
 /* svg styles */
 
-.hosting__infographics svg {
+.hosting__chart {
 	position: absolute;
 	right: 3px;
 	stroke-width: 6px;
 	stroke-linecap: round;
-}
-
-.circle {
   fill: none;
-  stroke-width: 6;
-  stroke-linecap: round;
 }
 
 .hosting__chart--basic {
@@ -136,8 +130,8 @@
 }
 
 .hosting__table-wrapper {
-	padding: 8px 0;
 	margin-bottom: 30px;
+	padding: 8px 0;
 	border-top: 1px solid #dfdfdf;
 	border-bottom: 1px solid #dfdfdf;
 }
@@ -171,6 +165,10 @@
 
 .hosting__item--biggest .hosting__table-cell {
 	color: #1abc9c;
+}
+
+.hosting__unit {
+	font-size: 14px;
 }
 
 .hosting__price {
@@ -211,7 +209,7 @@
 }
 
 .hosting__button {
-	margin-top: 4px;
+	margin-top: 3px;
 	padding: 15px 10px;
 	border: 0;
 	font-size: 16px;

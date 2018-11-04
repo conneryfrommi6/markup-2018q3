@@ -1,11 +1,10 @@
 .blog {
-	margin-bottom: 98px;
-	padding: 34px 0 70px;
+	padding: 33px 0 70px;
+	text-align: center;
+	color: white;
 	background-color: black;
 	background-image: url("../../img/blog-bg.jpg");
 	background-repeat: repeat;
-	text-align: center;
-	color: white;
 }
 
 .blog .container {

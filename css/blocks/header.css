@@ -138,12 +138,12 @@
 
 .header__button--login::after {
 	position: absolute;
+	top: 0;
+	right: -28px;
 	content: '';
 	display: block;
 	width: 0;
   height: 0;
-	top: 0;
-	right: -28px;
   border-top: 120px solid rgba(32, 55, 71, 0.91);
   border-right: 28px solid transparent;
 }

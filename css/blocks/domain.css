@@ -21,6 +21,8 @@
 }
 
 .domain__form {
+	margin: 0 auto;
+	margin-bottom: 40px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -35,27 +37,24 @@
 	    -ms-flex-align: center;
 	        align-items: center;
 	width: 890px;
-	margin: 0 auto;
-	margin-bottom: 40px;
 	border: 1px solid var(--black-15);
 }
 
 .domain__input {
 	padding: 15px;
 	width: 730px;
-
-	border: 0;
 	font-size: 15px;
 	font-weight: 500;
-	background-color: transparent;
 	color: #868686;
+	background-color: transparent;
+	border: 0;
 }
 
 .domain__input:focus {
+	color: white;
+	background-color: #39d083;
 	border: 0;
 	outline: 0;
-	background-color: #39d083;
-	color: white;
 }
 
 .domain__input:focus::-webkit-input-placeholder {
@@ -81,8 +80,8 @@
 	font-size: 16px;
 	line-height: 16px;
 
-	background-color: transparent;
 	color: #cbcbcb;
+	background-color: transparent;
 	border-right: 1px solid #d9d9d9;
 }
 
@@ -100,16 +99,16 @@
 }
 
 .domain__select-wrapper::after {
-	display: block;
 	position: absolute;
-	font-family: "FontAwesome";
-	content: '\f107';
-	font-size: 14px;
-	color: #cbcbcb;
-	width: 10px;
-	height: 10px;
 	right: 15px;
 	top: 10px;
+	display: block;
+	width: 10px;
+	height: 10px;
+	content: '\f107';
+	font-family: "FontAwesome";
+	font-size: 14px;
+	color: #cbcbcb;
 }
 
 .domain__select {
@@ -118,37 +117,35 @@
 	height: 20px;
   width: 54px;
 
-  border: none;
-  -webkit-box-shadow: none;
+	font-size: 16px;
+	color: #cbcbcb;
+	  -webkit-box-shadow: none;
           box-shadow: none;
   background: transparent;
   background-image: none;
 
   -moz-appearance: none;
 	-webkit-appearance: none;
-	font-size: 16px;
-	color: #cbcbcb;
 	background-color: transparent;
+  border: none;
 	cursor: pointer;
 }
 
 .domain__select:focus,
 .domain__select:active {
+	color: #383737;
+	background-color: transparent;
 	border: none;
 	border-radius: 0;
 	outline: 0;
-	background-color: transparent;
-	color: #383737;
 }
 
 /* domain table */
 
 .domain__table {
 	position: relative;
-
 	margin: 0 auto;
 	width: 890px;
-
 	text-align: center;
 	font-size: 14px;
 	line-height: 110%;
@@ -157,65 +154,65 @@
 	border-collapse: collapse;
 }
 
-.domain__table td,
-.domain__table th {
+.domain__table-cell,
+.domain__table-header {
 	position: relative;
 	padding: 40px 0;
 	width: 25%;
 	border: 1px solid #d9d9d9; 
 }
 
-.domain__table tr:first-child th::before {
+.domain__table-row:first-child .domain__table-header::before {
 	position: absolute;
-	content: "";
-	width: 11.36%;
-	height: 100%;
-	display: block;
 	bottom: -50%;
 	left: 0.1%;
-	background-color: white;
-}
-
-.domain__table tr:first-child td:last-child::after {
-	position: absolute;
 	content: "";
+	display: block;
 	width: 11.36%;
 	height: 100%;
-	display: block;
+	background-color: white;
+}
+
+.domain__table-row:first-child .domain__table-cell:last-child::after {
+	position: absolute;
 	top: 50%;
 	left: 88.54%;
+	content: "";
+	display: block;
+	width: 11.36%;
+	height: 100%;
 	background-color: white;
 }
 
-.domain__table tr:first-child td::after {
+.domain__table-row:first-child .domain__table-cell::after {
 	position: absolute;
-	content: "";
-	width: 13px;
-	height: 13px;
-	display: block;
 	top: 89px;
 	left: -8px;
+	content: "";
+	display: block;
+	width: 13px;
+	height: 13px;	
 	background-color: white;
 }
 
-.domain__table tr:first-child td::before {
+.domain__table-row:first-child .domain__table-cell::before {
 	position: absolute;
-	content: "";
-	width: 16px;
-	height: 16px;
-	display: block;
 	top: 0px;
 	left: -8px;
+	content: "";
+	display: block;
+	width: 16px;
+	height: 16px;	
 	background-color: white;
 }
 
-.domain__table tr:last-child td::after {
+.domain__table-row:last-child .domain__table-cell::after {
 	position: absolute;
-	content: "";
-	width: 16px;
-	height: 16px;
-	display: block;
 	bottom: 0px;
 	left: -8px;
+	display: block;
+	content: "";
+	width: 16px;
+	height: 16px;	
 	background-color: white;
 }

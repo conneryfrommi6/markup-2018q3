@@ -9,21 +9,6 @@
 		<link rel="stylesheet" href="./css/style.css">
 		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Montserrat:100" rel="stylesheet">
 		<script src="https://use.fontawesome.com/9e169d9b5e.js"></script>
-			<!--  -->
-	<style>
-  	html {
-    	background-repeat: no-repeat;
-    	background-position: 50% 0;
-    	background-image: url( "img/template.jpg" );
-  	}
-  	body {
-    	opacity: 1;
-  	}
-	</style>
-
-	<link rel="stylesheet" href="../node_modules/pixel-glass/styles.css">
-	<script src="./node_modules/pixel-glass/script.js"></script>
-	<!--  -->
 	</head>
 
 	<body>
@@ -32,7 +17,7 @@
 				<h1 class="visually-hidden">Ghost Host Homepage</h1>
 				<div class="header__top">
 					<a class="header__logo" href="./index.html">
-						<img src="./img/logo.png" alt="Ghost Host logotype" width="133" height="29">
+						<img src="./img/logo.png" alt="Ghost Host" width="133" height="29">
 					</a>
 					<nav class="header__nav">
 						<ul class="header__items">
@@ -77,17 +62,17 @@
 				</form>
 
 				<table class="domain__table table">
-					<tr>
-						<th class="table__header" scope="row">.COM</th>
-						<td>1 year</td>
-						<td>$9.00 USD</td>
-						<td>Transfer Price No</td>
+					<tr class="domain__table-row">
+						<th class="domain__table-header" scope="row">.COM</th>
+						<td class="domain__table-cell">1 year</td>
+						<td class="domain__table-cell">$9.00 USD</td>
+						<td class="domain__table-cell">Transfer Price No</td>
 					</tr>
-					<tr>
-						<th class="table__header" scope="row">.NET</th>
-						<td>1 year</td>
-						<td>$9.00 USD</td>
-						<td>Transfer Price No</td>	
+					<tr class="domain__table-row">
+						<th class="domain__table-header" scope="row">.NET</th>
+						<td class="domain__table-cell">1 year</td>
+						<td class="domain__table-cell">$9.00 USD</td>
+						<td class="domain__table-cell">Transfer Price No</td>	
 					</tr>
 				</table>
 			</section>
@@ -99,9 +84,8 @@
 				<div class="container">
 					<ul class="hosting__list">
 						<li class="hosting__item hosting__item--basic">
-							
 							<div class="hosting__infographics">
-								<svg width="56" height="56" viewBox="0 0 56 56" class="hosting__chart--basic">
+								<svg class="hosting__chart hosting__chart--basic" width="56" height="56" viewBox="0 0 56 56">
 								 	<circle cx="50%" cy="50%" r="25" fill="none" stroke-dasharray="157.08" stroke-dashoffset="-120" />
 								</svg>
 							</div>
@@ -110,7 +94,7 @@
 							<div class="hosting__table-wrapper">
 								<table class="hosting__table">
 									<tr>
-										<th class="hosting__table-head" scope="row">Disk Space (GB)</th>
+										<th class="hosting__table-head" scope="row">Disk Space <span class="hosting__unit">(GB)</span></th>
 										<td class="hosting__table-cell">50</td>
 									</tr>
 									<tr>
@@ -118,7 +102,7 @@
 										<td class="hosting__table-cell">50</td>
 									</tr>
 									<tr>
-										<th class="hosting__table-head" scope="row">Transfer (GB)</th>
+										<th class="hosting__table-head" scope="row">Transfer <span class="hosting__unit">(GB)</span></th>
 										<td class="hosting__table-cell">50</td>
 									</tr>
 									<tr>
@@ -143,9 +127,8 @@
 						</li>
 
 						<li class="hosting__item hosting__item--normal">
-							
 							<div class="hosting__infographics">
-								<svg width="56" height="56" viewBox="0 0 56 56" class="hosting__chart--normal">
+								<svg class="hosting__chart hosting__chart--normal" width="56" height="56" viewBox="0 0 56 56">
 								 	<circle cx="50%" cy="50%" r="25" fill="none" stroke-dasharray="157.08" stroke-dashoffset="79"/>
 								</svg>
 							</div>
@@ -154,7 +137,7 @@
 							<div class="hosting__table-wrapper">
 								<table class="hosting__table">
 									<tr>
-										<th class="hosting__table-head" scope="row">Disk Space (GB)</th>
+										<th class="hosting__table-head" scope="row">Disk Space <span class="hosting__unit">(GB)</span></th>
 										<td class="hosting__table-cell">100</td>
 									</tr>
 									<tr>
@@ -162,7 +145,7 @@
 										<td class="hosting__table-cell">100</td>
 									</tr>
 									<tr>
-										<th class="hosting__table-head" scope="row">Transfer (GB)</th>
+										<th class="hosting__table-head" scope="row">Transfer <span class="hosting__unit">(GB)</span></th>
 										<td class="hosting__table-cell">100</td>
 									</tr>
 									<tr>
@@ -187,9 +170,8 @@
 						</li>
 
 						<li class="hosting__item hosting__item--big">
-							
 							<div class="hosting__infographics">
-								<svg width="56" height="56" viewBox="0 0 56 56" class="hosting__chart--big">
+								<svg class="hosting__chart hosting__chart--big" width="56" height="56" viewBox="0 0 56 56">
 								 	<circle cx="50%" cy="50%" r="25" fill="none" stroke-dasharray="157.08" stroke-dashoffset="43"/>
 								</svg>
 							</div>
@@ -198,7 +180,7 @@
 							<div class="hosting__table-wrapper">
 								<table class="hosting__table">
 									<tr>
-										<th class="hosting__table-head" scope="row">Disk Space (GB)</th>
+										<th class="hosting__table-head" scope="row">Disk Space <span class="hosting__unit">(GB)</span></th>
 										<td class="hosting__table-cell">150</td>
 									</tr>
 									<tr>
@@ -206,7 +188,7 @@
 										<td class="hosting__table-cell">150</td>
 									</tr>
 									<tr>
-										<th class="hosting__table-head" scope="row">Transfer (GB)</th>
+										<th class="hosting__table-head" scope="row">Transfer <span class="hosting__unit">(GB)</span></th>
 										<td class="hosting__table-cell">150</td>
 									</tr>
 									<tr>
@@ -231,9 +213,8 @@
 						</li>
 
 						<li class="hosting__item hosting__item--biggest">
-							
 							<div class="hosting__infographics">
-								<svg width="56" height="56" viewBox="0 0 56 56" class="hosting__chart--biggest">
+								<svg class="hosting__chart hosting__chart--biggest" width="56" height="56" viewBox="0 0 56 56">
 								 	<circle cx="50%" cy="50%" r="25" fill="none" stroke-dasharray="157.08" stroke-dashoffset="0"/>
 								</svg>
 							</div>
@@ -242,7 +223,7 @@
 							<div class="hosting__table-wrapper">
 								<table class="hosting__table">
 									<tr>
-										<th class="hosting__table-head" scope="row">Disk Space (GB)</th>
+										<th class="hosting__table-head" scope="row">Disk Space <span class="hosting__unit">(GB)</span></th>
 										<td class="hosting__table-cell">250</td>
 									</tr>
 									<tr>
@@ -250,7 +231,7 @@
 										<td class="hosting__table-cell">250</td>
 									</tr>
 									<tr>
-										<th class="hosting__table-head" scope="row">Transfer (GB)</th>
+										<th class="hosting__table-head" scope="row">Transfer <span class="hosting__unit">(GB)</span></th>
 										<td class="hosting__table-cell">250</td>
 									</tr>
 									<tr>
@@ -306,7 +287,7 @@
 							</ul>
 						</li>
 						<li class="about__item">
-							<img class="about__photo" src="./img/about-2.jpg" alt="Johny Doe photo" width="90" height="90">
+							<img class="about__photo" src="./img/about-2.jpg" alt="John Doe photo" width="90" height="90">
 							<h3 class="about__name">John Doe</h3>
 							<span class="about__occupation">Designer</span>
 							<ul class="about__social">
@@ -322,7 +303,7 @@
 							</ul>
 						</li>
 						<li class="about__item">
-							<img class="about__photo" src="./img/about-3.jpg" alt="Johny Doe photo" width="90" height="90">
+							<img class="about__photo" src="./img/about-3.jpg" alt="Johnnathan Doe photo" width="90" height="90">
 							<h3 class="about__name">Johnathan Doe</h3>
 							<span class="about__occupation">Designer</span>
 							<ul class="about__social">
@@ -373,43 +354,40 @@
 
 				</div>
 			</section>
-			<!-- end of blog -->
-			
-			<!-- support -->
+
 			<section class="support container" id="support">
 				<h2 class="visually-hidden">Support</h2>
 				<ul class="support__items">
 					<li class="support__item">
 						<a class="support__link" href="#">
-							<div class="support__icon icon1"></div>
+							<div class="support__icon support__icon--fast"></div>
 							<h3 class="support__title">Fast servers</h3>
 							<p class="support__description">Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
 						</a>
 					</li>
 					<li class="support__item">
 						<a class="support__link" href="#">
-							<div class="support__icon icon2"></div>
+							<div class="support__icon support__icon--cloud"></div>
 							<h3 class="support__title">Cloud servers</h3>
 							<p class="support__description">Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
 						</a>
 					</li>
 					<li class="support__item">
 						<a class="support__link" href="#">
-							<div class="support__icon icon3"></div>
+							<div class="support__icon support__icon--transfer"></div>
 							<h3 class="support__title">Domain transfer</h3>
 							<p class="support__description">Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
 						</a>
 					</li>
 					<li class="support__item">
 						<a class="support__link" href="#">
-							<div class="support__icon icon4"></div>
+							<div class="support__icon support__icon--support"></div>
 							<h3 class="support__title">Live support</h3>
 							<p class="support__description">Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
 						</a>
 					</li>
 				</ul>
 			</section>
-			<!-- end of support -->
 		</main>
 
 		<footer class="footer">
